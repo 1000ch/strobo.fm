@@ -1,0 +1,14 @@
+baseurl: "https://1000ch.github.io/podcast"
+title: "podcast"
+footnotereturnlinkcontents: "↩"
+contentdir: "content"
+layoutdir: "layout"
+staticdir: "static"
+publishdir: "docs"
+uglyURLs: false
+metaDataFormat: "yaml"
+params:
+  android: http://subscribeonandroid.com/1000ch.github.io/podcast/index.xml
+  feed: https://1000ch.github.io/podcast/index.xml
+permalinks:
+  post: "/:title"

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    <div class="Container">
+      {{ partial "header.html" . }}
+      <main class="Main">
+        <h2>People</h2>
+        <ul class="People">
+          {{ range $person := .Params.people }}
+            <a href="{{ index $.Site.Data.people $person "url" }}">
+              <li class="Person">
+                <img class="Person__Avatar" src="{{ index $.Site.Data.people $person "image" }}">
+                <div class="Person_Name">{{ $person }}</div>
+              </li>
+            </a>
+          {{ end }}
+        </ul>
+        <audio
+          src="{{ .Params.audio }}"
+          controls="controls"
+          preload="auto">
+        </audio>
+        {{ .Content }}
+      </main>
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "script.html" . }}
+  </body>
+</html>

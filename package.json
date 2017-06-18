@@ -1,0 +1,25 @@
+{
+  "name": "podcast",
+  "private": true,
+  "config": {
+    "postcss": "--use postcss-import --use autoprefixer --use cssnano"
+  },
+  "scripts": {
+    "start": "npm run build -- --watch & hugo server",
+    "build": "postcss $npm_package_config_postcss --output docs/css/app.css static/css/app.css",
+    "lint": "stylelint static/css/*.css"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-fresh"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^4.0.0",
+    "postcss-import": "^10.0.0",
+    "stylelint": "^7.10.1",
+    "stylelint-config-fresh": "^1.0.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.4"
+  }
+}

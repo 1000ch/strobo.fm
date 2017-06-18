@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ if eq .Title .Site.Title }}
+  <title>{{ .Site.Title }}</title>
+{{ else }}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+{{ end }}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/app.css">
+<link rel="alternate" href="{{ .Site.BaseURL }}/index.xml" title="hugo-boilerplate-podcast" type="application/rss+xml">
+
+<meta name="author" content="@1000ch">
+<meta name="copyright" content="Copyright (c) Shogo Sensui; Licensed under Creative Commons Attribution-Noncommercial-Share Japan">
+
+{{ if .Params.description }}
+  <meta property="og:description" content="{{ .Params.description }}">
+{{ else }}
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+<meta property="og:image" content="{{ .Site.BaseURL }}/img/favicon.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta name="twitter:card" content="summary">

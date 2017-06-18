@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    <div class="Container">
+      {{ partial "header.html" . }}
+      <main class="Main">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "episode") }}
+        <ul class="EpisodeList">
+          {{ range $paginator.Pages }}
+            <li class="Episode">
+              <div class="Episode__Date">{{ .Date.Format "2006.01.02" }}</div>
+              <h2 class="Episode__Title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+            </li>
+          {{ end }}
+        </ul>
+        <nav>
+          {{ if .Paginator.HasPrev }}
+            <div>
+              <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
+            </div>
+          {{ else }}
+          {{ end }}
+          {{ if .Paginator.HasNext }}
+            <div>
+              <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
+            </div>
+          {{ else }}
+          {{ end }}
+        </nav>
+      </main>
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "script.html" . }}
+  </body>
+</html>
