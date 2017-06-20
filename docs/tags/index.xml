@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on podcast</title>
-    <link>https://1000ch.github.io/podcast/tags/</link>
-    <description>Recent content in Tags on podcast</description>
+    <title>Tags on strobo.fm</title>
+    <link>https://strobo.fm/tags/</link>
+    <description>Recent content in Tags on strobo.fm</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://1000ch.github.io/podcast/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strobo.fm/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

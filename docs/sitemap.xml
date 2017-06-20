@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://1000ch.github.io/podcast/episode/1/</loc>
+    <loc>https://strobo.fm/episode/1/</loc>
     <lastmod>2017-05-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://1000ch.github.io/podcast/categories/</loc>
+    <loc>https://strobo.fm/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://1000ch.github.io/podcast/episode/</loc>
+    <loc>https://strobo.fm/episode/</loc>
     <lastmod>2017-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://1000ch.github.io/podcast/tags/</loc>
+    <loc>https://strobo.fm/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://1000ch.github.io/podcast/</loc>
+    <loc>https://strobo.fm/</loc>
     <lastmod>2017-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

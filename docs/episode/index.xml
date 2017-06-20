@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Episodes on podcast</title>
-    <link>https://1000ch.github.io/podcast/episode/</link>
-    <description>Recent content in Episodes on podcast</description>
+    <title>Episodes on strobo.fm</title>
+    <link>https://strobo.fm/episode/</link>
+    <description>Recent content in Episodes on strobo.fm</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 30 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://1000ch.github.io/podcast/episode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strobo.fm/episode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>散財</title>
-      <link>https://1000ch.github.io/podcast/episode/1/</link>
+      <link>https://strobo.fm/episode/1/</link>
       <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://1000ch.github.io/podcast/episode/1/</guid>
+      <guid>https://strobo.fm/episode/1/</guid>
       <description> 散財  進化するWeb Componentsの今、2016年最新情報 | HTML5Experts.jp 2017年のWeb Components：新春特別企画｜gihyo.jp … 技術評論社 菅平高原プラザホテル ウェスティン ルスツ リゾート | 北海道・ルスツのラグジュアリーリゾート SaCSS Special4 Frontrend in Sapporo 見逃せない！最新フロントエンド技術アップデート特集！ About simurai 東京の中古マンション、リノベーションマンションの購入なら【cowcamo】 マメヒコさん(@shiba_mamehiko) • Instagram Apple WatchでApple Payを便利に使っている話 これからのグリッドレイアウト - Grid Layout Moduleの概要 | CodeGrid CSS Variables(カスタムプロパティ)： なぜ、関心を持つべきか？ HTML5+CSS3で作る魅せるiPhoneサイト Web制作者のためのCSS設計の教科書  </description>
     </item>
     

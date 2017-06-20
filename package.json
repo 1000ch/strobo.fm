@@ -1,5 +1,5 @@
 {
-  "name": "podcast",
+  "name": "strobo.fm",
   "private": true,
   "config": {
     "postcss": "--use postcss-import --use autoprefixer --use cssnano"

@@ -1,5 +1,5 @@
-baseurl: "https://1000ch.github.io/podcast"
-title: "podcast"
+baseurl: "https://strobo.fm"
+title: "strobo.fm"
 footnotereturnlinkcontents: "↩"
 contentdir: "content"
 layoutdir: "layout"
@@ -8,7 +8,7 @@ publishdir: "docs"
 uglyURLs: false
 metaDataFormat: "yaml"
 params:
-  android: http://subscribeonandroid.com/1000ch.github.io/podcast/index.xml
-  feed: https://1000ch.github.io/podcast/index.xml
+  android: http://subscribeonandroid.com/strobo.fm/index.xml
+  feed: https://strobo.fm/index.xml
 permalinks:
   post: "/:title"
