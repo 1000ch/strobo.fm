@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    {{ with .Site.LanguageCode }}
+      <language>{{.}}</language>
+    {{end}}
+    {{ if not .Date.IsZero }}
+      <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <itunes:author>Shogo Sensui</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://cdn.rebuild.fm/images/icon1400.jpg" />
+    <itunes:keywords>technology,html,css,javascript,web</itunes:keywords>
+    <itunes:subtitle>A Podcast focusing to Web Technology.</itunes:subtitle>
+    <itunes:summary>Web技術などにフォーカスしたポッドキャストです。</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Shogo Sensui</itunes:name>
+      <itunes:email>shogosensui@gmail.com</itunes:email>
+    </itunes:owner>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{ range .Data.Pages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Author.email }}
+          <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
+        {{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Summary | html }}</description>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
+        <itunes:duration>{{ .Params.Duration }}</itunes:duration>
+        <enclosure url="{{ .Site.BaseURL }}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Filesize }}" />
+      </item>
+    {{ end }}
+  </channel>
+</rss>

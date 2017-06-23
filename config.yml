@@ -7,8 +7,6 @@ staticdir: "static"
 publishdir: "docs"
 uglyURLs: false
 metaDataFormat: "yaml"
-params:
-  android: http://subscribeonandroid.com/strobo.fm/index.xml
-  feed: https://strobo.fm/index.xml
+languageCode: "ja"
 permalinks:
   post: "/:title"
