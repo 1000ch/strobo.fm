@@ -9,7 +9,7 @@
       <language>ja</language>
     
     
-      <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
     
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <itunes:author>Shogo Sensui</itunes:author>
@@ -24,6 +24,19 @@
       <itunes:email>shogosensui@gmail.com</itunes:email>
     </itunes:owner>
     <atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>首都高と窓</title>
+        <link>https://strobo.fm/episode/4/</link>
+        <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+        
+        <guid>https://strobo.fm/episode/4/</guid>
+        <description>facebook/react yahoo/fluxible .NET Application Architecture 超速! Webページ速度改善ガイド ── 使いやすさは「速さ」から始まる (WEB+DB PRESS plus) Service Worker の紹介 Cache-Control の Immutable 拡張によるリロード時のキャッシュ最適化 Hara Kazunari@JP🔈さんのツイート: &amp;ldquo;@1000ch ちゃんにService Workerでのデータ転送量削減を調べてもらったら、減っていたので焼肉食べに行きたい。&amp;rdquo; Typora — a minimal markdown editor, markdown reader. Improving Netflix Performance Fluid User Interface with Hardware Acceleration ブラウザの仕組み: 最新ウェブブラウザの内部構造 - HTML5Rocks Node学園 28時限目 Node学園 28時限目 に行ってきたメモ #tng28 To SSR or Not to SSR, This is the problem #tng28 - Togetterまとめ Preload and Modules Intent to Implement: Link rel=modulepreload Chrome’s Loading Performance with (Many) Modules Japan Accessibility Conference [Room A] Japan Accessibility Conference vol.</description>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:subtitle>facebook/react yahoo/fluxible .NET Application Architecture 超速! Webページ速度改善ガイド ── 使いやすさは「速さ」から始まる (WEB+DB PRESS plus) Service Worker の紹介 Cache-Control の Immutable 拡張によるリロード時のキャッシュ最適化 Hara Kazunari@JP🔈さんのツイート: &amp;ldquo;@1000ch ちゃんにService Workerでのデータ転送量削減を調べてもらったら、減っていたので焼肉食べに行きたい。&amp;rdquo; Typora — a minimal markdown editor, markdown reader. Improving Netflix Performance Fluid User Interface with Hardware Acceleration ブラウザの仕組み: 最新ウェブブラウザの内部構造 - HTML5Rocks Node学園 28時限目 Node学園 28時限目 に行ってきたメモ #tng28 To SSR or Not to SSR, This is the problem #tng28 - Togetterまとめ Preload and Modules Intent to Implement: Link rel=modulepreload Chrome’s Loading Performance with (Many) Modules Japan Accessibility Conference [Room A] Japan Accessibility Conference vol.</itunes:subtitle>
+        <itunes:duration>1:22:00</itunes:duration>
+        <enclosure url="https://strobo.fm/audio/4.mp3" type="audio/mpeg" length="39367703" />
+      </item>
     
       <item>
         <title>ムラサキウニとバフンウニ</title>
