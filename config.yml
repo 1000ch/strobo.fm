@@ -4,7 +4,7 @@ footnotereturnlinkcontents: "↩"
 contentdir: "content"
 layoutdir: "layout"
 staticdir: "static"
-publishdir: "docs"
+publishdir: "public"
 uglyURLs: false
 metaDataFormat: "yaml"
 languageCode: "ja"

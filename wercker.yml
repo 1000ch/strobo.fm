@@ -1,0 +1,12 @@
+box: node:latest
+build:
+  steps:
+    - npm-install
+    - arjen/hugo-build:
+        version: "0.24.1"
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+        token: $GITHUB_TOKEN
+        domain: strobo.fm
+        basedir: public
