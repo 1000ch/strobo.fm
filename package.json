@@ -8,9 +8,6 @@
     "css:components": "postcss --output public/css/components.css static/css/components.css",
     "lint": "stylelint static/css/*.css"
   },
-  "stylelint": {
-    "extends": "stylelint-config-fresh"
-  },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "cssnano": "^3.10.0",
