@@ -4,6 +4,9 @@ build:
     - npm-install
     - arjen/hugo-build:
         version: "0.24.1"
+    - script:
+        name: Build CSS files
+        code: npm run css
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
