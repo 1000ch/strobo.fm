@@ -12,7 +12,10 @@
           {{ range $person := .Params.people }}
             <a href="{{ index $.Site.Data.people $person "url" }}">
               <li class="Person">
-                <img class="Person__Avatar" src="{{ index $.Site.Data.people $person "image" }}">
+                <img
+                  alt=""
+                  class="Person__Avatar"
+                  src="{{ index $.Site.Data.people $person "image" }}">
                 <div class="Person_Name">{{ $person }}</div>
               </li>
             </a>
