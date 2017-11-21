@@ -90,3 +90,13 @@
   width: 0;
   min-width: 0;
 }
+
+.SubscribeItems {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.SubscribeItems__Item img {
+  width: 1.5em;
+  vertical-align: text-bottom;
+}
