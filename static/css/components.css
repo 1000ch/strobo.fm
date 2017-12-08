@@ -40,6 +40,7 @@
 .Header {
   height: var(--height-header);
   margin: 0 calc((100vw - 100%) / -2);
+  margin-bottom: 2em;
   padding: 0 calc((100vw - 100%) / 2);
   background-color: #333;
   background-image: url("/img/background.jpg");
@@ -50,7 +51,9 @@
 
 .HeaderTitle {
   display: flex;
-  padding: 1em;
+  height: 100%;
+  padding: 0 1em;
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .HeaderTitle h1 {
@@ -74,6 +77,7 @@
 .Footer {
   min-height: var(--height-footer);
   margin: 0 calc((100vw - 100%) / -2);
+  margin-top: 2em;
   padding: 0 calc((100vw - 100%) / 2);
   color: #fff;
   background-color: #333;
@@ -82,13 +86,13 @@
 .FooterItems {
   display: flex;
   flex-direction: row;
-  padding: 1em;
 }
 
 .FooterItems__Item {
   flex-grow: 1;
   width: 0;
   min-width: 0;
+  padding: 1em;
 }
 
 .SubscribeItems {
@@ -97,6 +101,6 @@
 }
 
 .SubscribeItems__Item img {
-  width: 1.5em;
+  width: 1.25em;
   vertical-align: text-bottom;
 }
