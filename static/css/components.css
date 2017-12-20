@@ -49,11 +49,17 @@
   background-size: cover;
 }
 
+.HeaderBackdrop {
+  height: 100%;
+  margin: 0 calc((100vw - 100%) / -2);
+  padding: 0 calc((100vw - 100%) / 2);
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .HeaderTitle {
   display: flex;
   height: 100%;
   padding: 0 1em;
-  background: rgba(0, 0, 0, 0.25);
 }
 
 .HeaderTitle h1 {
