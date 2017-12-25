@@ -11,10 +11,10 @@
         <ul class="EpisodeList">
           {{ range $paginator.Pages }}
             <li class="Episode">
-              <div class="Episode__Date">{{ .Date.Format "2006.01.02" }}</div>
               <h2 class="Episode__Title">
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
               </h2>
+              <time class="Episode__Date">{{ .Date.Format "2006.01.02" }}</time>
             </li>
           {{ end }}
         </ul>

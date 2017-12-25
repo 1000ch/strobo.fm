@@ -5,7 +5,7 @@
 
 .Container {
   min-width: 32rem;
-  max-width: 80rem;
+  max-width: 64rem;
   min-height: 100vh;
   margin: 0 auto;
   background: #fff;
@@ -14,6 +14,12 @@
 .EpisodeList {
   padding-left: 0;
   list-style-type: none;
+}
+
+.Episode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .People {
