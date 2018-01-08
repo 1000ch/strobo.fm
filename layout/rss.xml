@@ -13,7 +13,7 @@
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <itunes:author>Shogo Sensui</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{ .Site.BaseURL }}/img/strobofm.jpg" />
+    <itunes:image href="{{ .Site.BaseURL }}/img/icon/1920.jpg" />
     <itunes:keywords>technology,html,css,javascript,web</itunes:keywords>
     <itunes:subtitle>A Podcast focusing to Web Technology.</itunes:subtitle>
     <itunes:summary>Web技術などにフォーカスしたポッドキャストです。</itunes:summary>
