@@ -3,7 +3,6 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
-    <generator>Hugo -- gohugo.io</generator>
     {{ with .Site.LanguageCode }}
       <language>{{.}}</language>
     {{end}}
@@ -14,9 +13,9 @@
     <itunes:author>Shogo Sensui</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{ .Site.BaseURL }}/img/icon/1920.jpg" />
-    <itunes:keywords>technology,html,css,javascript,web</itunes:keywords>
-    <itunes:subtitle>A Podcast focusing to Web Technology.</itunes:subtitle>
-    <itunes:summary>Web技術などにフォーカスしたポッドキャストです。</itunes:summary>
+    <itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords>
+    <itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle>
+    <itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:owner>
       <itunes:name>Shogo Sensui</itunes:name>
