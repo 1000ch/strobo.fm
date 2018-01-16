@@ -10,15 +10,15 @@
         <h2>People</h2>
         <ul class="People">
           {{ range $person := .Params.people }}
-            <a href="{{ index $.Site.Data.people $person "url" }}">
-              <li class="Person">
+            <li class="Person">
+              <a href="{{ index $.Site.Data.people $person "url" }}">
                 <img
                   alt=""
                   class="Person__Avatar"
                   src="{{ index $.Site.Data.people $person "image" }}">
                 <div class="Person_Name">{{ $person }}</div>
-              </li>
-            </a>
+              </a>
+            </li>
           {{ end }}
         </ul>
         <audio
