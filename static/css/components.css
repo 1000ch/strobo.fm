@@ -86,6 +86,12 @@
   padding: 0 1em;
 }
 
+.Aside {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
 .Footer {
   min-height: var(--height-footer);
   margin: 0 calc((100vw - 100%) / -2);

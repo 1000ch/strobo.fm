@@ -1,0 +1,22 @@
+<aside class="Aside">
+  <facebook-button
+    layout="button_count"
+    width="100"
+    height="20"
+    href="{{ .Permalink }}">
+  </facebook-button>
+  <twitter-button
+    type="share"
+    width="65"
+    height="20"
+    href="{{ .Permalink }}"
+    text="{{ .Title }} - {{ .Site.Title }}">
+  </twitter-button>
+</aside>
+<script type="module">
+  import TwitterButton from '/js/twitter-button.js';
+  import FacebookButton from '/js/facebook-button.js';
+
+  customElements.define('twitter-button', TwitterButton);
+  customElements.define('facebook-button', FacebookButton);
+</script>
