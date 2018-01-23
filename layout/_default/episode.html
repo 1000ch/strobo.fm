@@ -10,7 +10,7 @@
         <ul class="People">
           {{ range $person := .Params.people }}
             <li class="Person">
-              <a href="{{ index $.Site.Data.people $person "url" }}">
+              <a href="/people/{{ $person }}">
                 <img
                   alt=""
                   class="Person__Avatar"

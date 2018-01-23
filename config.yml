@@ -10,3 +10,5 @@ metaDataFormat: "yaml"
 languageCode: "ja"
 permalinks:
   post: "/:title"
+taxonomies:
+  people: "people"

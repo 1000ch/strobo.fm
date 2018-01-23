@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    <div class="Container">
+      {{ partial "header.html" . }}
+      <main class="Main">
+        <ul class="People">
+          {{ $term := .Data.Term }}
+          {{ range $key, $taxonomy := .Site.Taxonomies.people }}
+            {{ if eq $term $key }}
+              <li class="Person">
+                <a href="/people/{{ $term }}">
+                  <img
+                    alt=""
+                    class="Person__Avatar"
+                    src="{{ index $.Site.Data.people $key "image" }}">
+                  <div class="Person_Name">{{ $key }}</div>
+                </a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+        <ul class="EpisodeList">
+          {{ range .Data.Pages }}
+            <li class="Episode">
+              <h2 class="Episode__Title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+              <time class="Episode__Date">{{ .Date.Format "2006.01.02" }}</time>
+            </li>
+          {{ end }}
+        </ul>
+      </main>
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "script.html" . }}
+  </body>
+</html>
