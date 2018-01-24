@@ -1,10 +1,5 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{{ if eq .Title .Site.Title }}
-  <title>{{ .Site.Title }}</title>
-{{ else }}
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
-{{ end }}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/base.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/components.css">
