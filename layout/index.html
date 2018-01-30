@@ -19,19 +19,19 @@
             </li>
           {{ end }}
         </ul>
-        <nav>
-          {{ if .Paginator.HasPrev }}
-            <div>
+        <nav class="Nav">
+          <div class="Nav__Prev">
+            {{ if .Paginator.HasPrev }}
               <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
-            </div>
-          {{ else }}
-          {{ end }}
-          {{ if .Paginator.HasNext }}
-            <div>
+            {{ else }}
+            {{ end }}
+          </div>
+          <div class="Nav__Next">
+            {{ if .Paginator.HasNext }}
               <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
-            </div>
-          {{ else }}
-          {{ end }}
+            {{ else }}
+            {{ end }}
+          </div>
         </nav>
       </main>
       {{ partial "footer.html" . }}
