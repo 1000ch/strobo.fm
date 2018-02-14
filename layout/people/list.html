@@ -5,11 +5,11 @@
     {{ partial "meta.html" . }}
   </head>
   <body>
+    {{ $term := .Data.Term }}
     <div class="Container">
       {{ partial "header.html" . }}
       <main class="Main">
         <ul class="People">
-          {{ $term := .Data.Term }}
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
             {{ if eq $term $key }}
               <li class="Person">
@@ -32,6 +32,22 @@
               </h2>
               <time class="Episode__Date">{{ .Date.Format "2006.01.02" }}</time>
             </li>
+          {{ end }}
+        </ul>
+        <h1>People</h1>
+        <ul class="People">
+          {{ range $key, $taxonomy := .Site.Taxonomies.people }}
+            {{ if ne $term $key }}
+              <li class="Person">
+                <a href="/people/{{ $key }}">
+                  <img
+                    alt=""
+                    class="Person__Avatar"
+                    src="{{ index $.Site.Data.people $key "image" }}">
+                  <div class="Person_Name">{{ $key }}</div>
+                </a>
+              </li>
+            {{ end }}
           {{ end }}
         </ul>
       </main>
