@@ -15,7 +15,11 @@
   OneSignal.push(() => {
     OneSignal.init({
       appId: 'de326559-dc31-4503-b337-1f94d21c5944',
-      autoRegister: false
+      autoRegister: false,
+      welcomeNotification: {
+        title: 'Welcome',
+        message: 'Thanks for subscribing!',
+      }
     });
 
     document.querySelector('#push-notification').addEventListener('click', e => {
