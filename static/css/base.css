@@ -9,10 +9,9 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-1000ch", sans-serif;
   font-size: 1.6em;
   font-weight: normal;
-  font-feature-settings: "palt";
   line-height: 1.6;
 }
 
