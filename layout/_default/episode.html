@@ -8,6 +8,13 @@
     <div class="Container">
       {{ partial "header.html" . }}
       <main class="Main">
+        <h1>{{ .Title }}</h1>
+        <audio
+          src="{{ .Params.audio }}"
+          controls="controls"
+          preload="auto">
+        </audio>
+        <h2>Casts</h2>
         <ul class="People">
           {{ range $person := .Params.people }}
             <li class="Person">
@@ -21,11 +28,7 @@
             </li>
           {{ end }}
         </ul>
-        <audio
-          src="{{ .Params.audio }}"
-          controls="controls"
-          preload="auto">
-        </audio>
+        <h2>Notes</h2>
         {{ .Content }}
       </main>
       {{ partial "aside.html" . }}
