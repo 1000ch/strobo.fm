@@ -94,8 +94,13 @@
 
 .Aside {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   padding: 1em;
+}
+
+.Aside > * {
+  margin: 0 0.25em;
 }
 
 .Footer {
