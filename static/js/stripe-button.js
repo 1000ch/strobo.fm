@@ -27,10 +27,29 @@ export default class StripeButton extends HTMLElement {
       country: 'JP',
       currency: 'jpy',
       total: {
-        label: 'Donate strobo.fm',
+        label: 'Donate to strobo.fm',
         amount: 100
       }
     });
+
+    paymentRequest.on('token', async e => {
+      try {
+        await fetch('https://strobofm.herokuapp.com/donate', {
+          method: 'POST',
+          body: JSON.stringify({
+            token: e.token.id
+          }),
+          headers: {
+            'content-type': 'application/json'
+          }
+        });
+
+        e.complete('success');
+      } catch (error) {
+        e.complete('fail');
+      }
+    });
+
     const elements = stripe.elements();
     const prButton = elements.create('paymentRequestButton', {
       paymentRequest,
