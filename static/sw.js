@@ -1,4 +1,4 @@
-const CACHE_KEY = '20180309';
+const CACHE_KEY = '20180414';
 const CACHE_FILES = [
   'background.jpg',
   'components.css',
