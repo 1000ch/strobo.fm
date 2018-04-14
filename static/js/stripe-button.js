@@ -22,22 +22,29 @@ export default class StripeButton extends HTMLElement {
   async connectedCallback() {
     await this.insertStripeSDK();
 
+    const amount = 100;
+    const currency = 'jpy';
+    const description = 'Donate to strobo.fm';
+
     const stripe = Stripe('pk_live_CFjMMsFEB0CScQsH7xu4xNVp');
     const paymentRequest = stripe.paymentRequest({
       country: 'JP',
-      currency: 'jpy',
+      currency,
       total: {
-        label: 'Donate to strobo.fm',
-        amount: 100
+        label: description,
+        amount
       }
     });
 
-    paymentRequest.on('token', async e => {
+    paymentRequest.on('source', async e => {
       try {
         await fetch('https://strobofm.herokuapp.com/donate', {
           method: 'POST',
           body: JSON.stringify({
-            token: e.token.id
+            amount,
+            currency,
+            source: e.source.id,
+            description
           }),
           headers: {
             'content-type': 'application/json'
