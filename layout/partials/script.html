@@ -23,6 +23,8 @@
     });
 
     document.querySelector('#push-notification').addEventListener('click', e => {
+      e.preventDefault();
+
       OneSignal.registerForPushNotifications();
     });
   });
