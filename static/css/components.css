@@ -114,19 +114,21 @@
 
 .FooterItems {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .FooterItems__Item {
   flex-grow: 1;
-  width: 0;
-  min-width: 0;
   padding: 1em;
 }
 
 .SubscribeItems {
   padding-left: 0;
   list-style-type: none;
+}
+
+.SubscribeItems__Item {
+  margin: 0.125em 0;
 }
 
 .SubscribeItems__Item img {
