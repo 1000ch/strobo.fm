@@ -35,7 +35,7 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
         <itunes:duration>{{ .Params.Duration }}</itunes:duration>
-        <enclosure url="{{ .Site.BaseURL }}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Filesize }}" />
+        <enclosure url="{{ .Site.Params.StaticURL }}{{ .Params.Audio }}" type="audio/mpeg" length="{{ .Params.Filesize }}" />
       </item>
     {{ end }}
   </channel>

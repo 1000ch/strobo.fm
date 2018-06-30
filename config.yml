@@ -12,3 +12,5 @@ permalinks:
   post: "/:title"
 taxonomies:
   people: "people"
+params:
+  StaticURL: "https://1000ch.github.io/strobofm-files"
