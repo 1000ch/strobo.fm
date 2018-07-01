@@ -22,6 +22,18 @@
   justify-content: space-between;
 }
 
+.PlaybackSpeed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.PlaybackSpeed label {
+  margin: 0 0.5em;
+  display: inline-flex;
+  align-items: center;
+}
+
 .People {
   display: flex;
   flex-direction: row;

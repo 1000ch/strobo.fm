@@ -14,6 +14,12 @@
           controls="controls"
           preload="auto">
         </audio>
+        <div class="PlaybackSpeed">
+          <label><input type="radio" name="playback" value="0.75">0.75x</label>
+          <label><input type="radio" name="playback" value="1.0" checked>1.0x</label>
+          <label><input type="radio" name="playback" value="1.25">1.25x</label>
+          <label><input type="radio" name="playback" value="1.5">1.5x</label>
+        </div>
         <h2>Casts</h2>
         <ul class="People">
           {{ range $person := .Params.people }}

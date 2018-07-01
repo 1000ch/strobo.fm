@@ -13,4 +13,14 @@
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js');
   }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.querySelector('audio');
+
+    document.querySelectorAll('input[type=radio]').forEach(radio => {
+      radio.addEventListener('click', () => {
+        audio.playbackRate = Number(radio.value);
+      });
+    });
+  });
 </script>
