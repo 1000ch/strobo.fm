@@ -1,0 +1,13 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  margin: 0 calc((100vw - 100%) / -2);
+  padding: calc(var(--size-base) * 2) calc((100vw - 100%) / 2) calc(var(--size-base) * 4);
+  color: #fff;
+  background-color: #333;
+}
+
+.Footer__Item {
+  padding: var(--space-base);
+}

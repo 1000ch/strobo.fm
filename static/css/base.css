@@ -1,3 +1,9 @@
+:root {
+  --size-base: 8px;
+  --space-base: 8px;
+  --radius-base: 4px;
+}
+
 html {
   overflow-wrap: break-word;
   box-sizing: border-box;
@@ -16,8 +22,8 @@ body {
 }
 
 blockquote {
-  margin: 1.6em 0;
-  padding: 0 1.6em;
+  margin: calc(var(--space-base) * 2) 0;
+  padding: 0 calc(var(--space-base) * 2);
   border: 0.1em dashed #666;
   font-style: italic;
 }
@@ -30,6 +36,12 @@ a {
 a:hover {
   text-decoration: underline;
   color: currentColor;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 audio {

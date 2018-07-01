@@ -23,21 +23,21 @@
         <h2>Casts</h2>
         <ul class="People">
           {{ range $person := .Params.people }}
-            <li class="Person">
+            <li class="People__Item">
               <a href="/people/{{ $person }}">
                 <img
                   alt=""
-                  class="Person__Avatar"
+                  class="People__Avatar"
                   src="{{ index $.Site.Data.people $person "image" }}">
-                <div class="Person_Name">{{ $person }}</div>
+                <div>{{ $person }}</div>
               </a>
             </li>
           {{ end }}
         </ul>
         <h2>Notes</h2>
         {{ .Content }}
+        {{ partial "aside.html" . }}
       </main>
-      {{ partial "aside.html" . }}
       {{ partial "footer.html" . }}
     </div>
     {{ partial "script.html" . }}

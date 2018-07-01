@@ -12,25 +12,23 @@
         <ul class="People">
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
             {{ if eq $term $key }}
-              <li class="Person">
+              <li class="People__Item">
                 <a href="/people/{{ $term }}">
                   <img
                     alt=""
-                    class="Person__Avatar"
+                    class="People__Avatar"
                     src="{{ index $.Site.Data.people $key "image" }}">
-                  <div class="Person_Name">{{ $key }}</div>
+                  <div>{{ $key }}</div>
                 </a>
               </li>
             {{ end }}
           {{ end }}
         </ul>
-        <ul class="EpisodeList">
+        <ul class="Episode">
           {{ range .Data.Pages }}
-            <li class="Episode">
-              <h2 class="Episode__Title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h2>
-              <time class="Episode__Date">{{ .Date.Format "2006.01.02" }}</time>
+            <li class="Episode__Item">
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              <time>{{ .Date.Format "2006.01.02" }}</time>
             </li>
           {{ end }}
         </ul>
@@ -38,13 +36,13 @@
         <ul class="People">
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
             {{ if ne $term $key }}
-              <li class="Person">
+              <li class="People__Item">
                 <a href="/people/{{ $key }}">
                   <img
                     alt=""
-                    class="Person__Avatar"
+                    class="People__Avatar"
                     src="{{ index $.Site.Data.people $key "image" }}">
-                  <div class="Person_Name">{{ $key }}</div>
+                  <div>{{ $key }}</div>
                 </a>
               </li>
             {{ end }}

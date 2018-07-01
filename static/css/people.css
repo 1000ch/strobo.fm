@@ -1,0 +1,21 @@
+.People {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.People__Item {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  margin-bottom: calc(var(--space-base) * 2);
+  text-align: center;
+}
+
+.People__Avatar {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}

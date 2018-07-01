@@ -1,0 +1,11 @@
+.Aside {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 27px;
+  margin-top: calc(var(--space-base) * 4);
+}
+
+.Aside__Item {
+  margin: 0 var(--space-base);
+}

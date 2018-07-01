@@ -1,0 +1,7 @@
+.Container {
+  min-width: calc(var(--size-base) * 40);
+  max-width: calc(var(--size-base) * 80);
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+}

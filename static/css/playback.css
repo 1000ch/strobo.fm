@@ -1,0 +1,12 @@
+.PlaybackSpeed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: var(--space-base);
+}
+
+.PlaybackSpeed label {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 var(--space-base);
+}

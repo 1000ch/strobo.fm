@@ -1,0 +1,9 @@
+.Episode {
+  list-style-type: none;
+}
+
+.Episode__Item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

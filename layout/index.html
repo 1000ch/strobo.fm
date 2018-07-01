@@ -9,13 +9,11 @@
       {{ partial "header.html" . }}
       <main class="Main">
         {{ $paginator := .Paginate (where .Data.Pages "Type" "episode") }}
-        <ul class="EpisodeList">
+        <ul class="Episode">
           {{ range $paginator.Pages }}
-            <li class="Episode">
-              <h2 class="Episode__Title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h2>
-              <time class="Episode__Date">{{ .Date.Format "2006.01.02" }}</time>
+            <li class="Episode__Item">
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              <time>{{ .Date.Format "2006.01.02" }}</time>
             </li>
           {{ end }}
         </ul>

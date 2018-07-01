@@ -1,0 +1,19 @@
+.Subscribe {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.Subscribe__Item {
+  height: calc(var(--size-base) * 3);
+}
+
+.Subscribe__Item a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Subscribe__Item img {
+  width: 20px;
+  margin-right: calc(var(--space-base) / 2);
+}
