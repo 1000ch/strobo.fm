@@ -1,4 +1,4 @@
 .Main {
   min-height: calc(100vh - 400px);
-  padding: calc(var(--space-base) * 4) var(--space-base);
+  padding: calc(var(--space-base) * 4) calc(var(--space-base) * 2);
 }
