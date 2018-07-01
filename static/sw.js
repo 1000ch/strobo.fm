@@ -1,9 +1,18 @@
-const CACHE_KEY = '20180414';
+const CACHE_KEY = '20180701';
 const CACHE_FILES = [
   'background.jpg',
-  'components.css',
-  'font.css',
+  'aside.css',
   'base.css',
+  'container.css',
+  'episode.css',
+  'font.css',
+  'footer.css',
+  'header.css',
+  'main.css',
+  'nav.css',
+  'people.css',
+  'playback.css',
+  'subscribe.css',
   'NotoSansCJKjp-Bold.woff2',
   'NotoSansCJKjp-Regular.woff2'
 ];
