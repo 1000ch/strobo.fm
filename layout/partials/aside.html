@@ -12,14 +12,11 @@
     href="{{ .Permalink }}"
     text="{{ .Title }} - {{ .Site.Title }}">
   </twitter-button>
-  <stripe-button></stripe-button>
 </aside>
 <script type="module">
   import TwitterButton from '/js/twitter-button.js';
   import FacebookButton from '/js/facebook-button.js';
-  import StripeButton from '/js/stripe-button.js';
 
   customElements.define('twitter-button', TwitterButton);
   customElements.define('facebook-button', FacebookButton);
-  customElements.define('stripe-button', StripeButton);
 </script>
