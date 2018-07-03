@@ -1,9 +1,10 @@
-const CACHE_KEY = '20180702';
+const CACHE_KEY = '20180703';
 const CACHE_FILES = [
   'background.jpg',
   'aside.css',
   'base.css',
   'container.css',
+  'control.css',
   'episode.css',
   'font.css',
   'footer.css',
@@ -11,7 +12,6 @@ const CACHE_FILES = [
   'main.css',
   'nav.css',
   'people.css',
-  'playback.css',
   'subscribe.css',
   'NotoSansCJKjp-Bold.woff2',
   'NotoSansCJKjp-Regular.woff2'

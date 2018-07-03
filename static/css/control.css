@@ -1,12 +1,12 @@
-.PlaybackSpeed {
+.Control {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: var(--space-base);
+  margin: var(--space-base) 0;
 }
 
-.PlaybackSpeed label {
+.Control > * {
   display: inline-flex;
   align-items: center;
-  margin: 0 var(--space-base);
+  margin: 0 calc(var(--space-base) / 2);
 }
