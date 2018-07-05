@@ -15,9 +15,18 @@
   }
 
   document.addEventListener('DOMContentLoaded', () => {
+    const savedCurrentTime = Number(localStorage.getItem(location.pathname));
     const audio = document.querySelector('audio');
     const playbackRate = document.querySelector('#playbackRate');
     const currentTime = document.querySelector('#currentTime');
+
+    if (savedCurrentTime) {
+      audio.currentTime = savedCurrentTime;
+    }
+
+    audio.addEventListener('timeupdate', () => {
+      localStorage.setItem(location.pathname, parseInt(audio.currentTime, 10));
+    });
 
     playbackRate.querySelectorAll('input[type=radio]').forEach(radio => {
       radio.addEventListener('click', () => {
