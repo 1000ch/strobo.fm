@@ -44,6 +44,7 @@ audio {
 
 button {
   padding: calc(var(--space-base) / 2) var(--space-base);
+  border: solid 1px #ccc;
   border-radius: var(--radius-base);
-  background-color: transparent;
+  background-color: #fff;
 }
