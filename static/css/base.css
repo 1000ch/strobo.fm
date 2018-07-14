@@ -4,9 +4,12 @@
   --radius-base: 4px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   overflow-wrap: break-word;
-  box-sizing: border-box;
   word-wrap: break-word;
   font-size: 62.5%;
 }
