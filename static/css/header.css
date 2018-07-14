@@ -3,26 +3,21 @@
   margin: 0 calc((100vw - 100%) / -2);
   padding: 0 calc((100vw - 100%) / 2);
   background-color: #333;
-  background-image: url("/img/background.jpg");
+  background-image:
+    url("/img/background-cover.svg"),
+    url("/img/background.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
 
-.Header__Backdrop {
-  height: 100%;
-  margin: 0 calc((100vw - 100%) / -2);
-  padding: 0 calc((100vw - 100%) / 2);
-  background: rgba(0, 0, 0, 0.25);
-}
-
-.Header__Title {
+.Header__Item {
   display: flex;
   height: 100%;
   padding: 0 calc(var(--space-base) * 2);
 }
 
-.Header__Title h1 {
+.Header__Item h1 {
   text-shadow:
     3px 3px 10px #333,
     3px -3px 10px #333,
@@ -30,7 +25,7 @@
     -3px -3px 10px #333;
 }
 
-.Header__Title a {
+.Header__Item a {
   text-decoration: none;
   color: #fff;
 }
