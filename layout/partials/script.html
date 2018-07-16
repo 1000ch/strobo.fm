@@ -23,28 +23,30 @@
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    const savedCurrentTime = Number(localStorage.getItem(location.pathname));
-    const audio = document.querySelector('audio');
-    const playbackRate = document.querySelector('#playbackRate');
-    const currentTime = document.querySelector('#currentTime');
-
-    if (savedCurrentTime) {
-      audio.currentTime = savedCurrentTime;
+    const podcast = document.querySelector('#podcast');
+    if (podcast === null) {
+      return;
     }
 
-    audio.addEventListener('timeupdate', () => {
-      localStorage.setItem(location.pathname, parseInt(audio.currentTime, 10));
+    const key = location.pathname;
+    const savedTime = Number(localStorage.getItem(key));
+    if (savedTime) {
+      podcast.currentTime = savedTime;
+    }
+
+    podcast.addEventListener('timeupdate', () => {
+      localStorage.setItem(key, parseInt(podcast.currentTime, 10));
     });
 
-    playbackRate.querySelectorAll('input[type=radio]').forEach(radio => {
+    document.querySelectorAll('#playbackRate input[type=radio]').forEach(radio => {
       radio.addEventListener('click', () => {
-        audio.playbackRate = Number(radio.value);
+        podcast.playbackRate = Number(radio.value);
       });
     });
 
-    currentTime.querySelectorAll('button').forEach(button => {
+    document.querySelectorAll('#currentTime button').forEach(button => {
       button.addEventListener('click', () => {
-        audio.currentTime += Number(button.value);
+        podcast.currentTime += Number(button.value);
       });
     });
   });

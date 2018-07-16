@@ -10,6 +10,7 @@
       <main class="Main">
         <h1>{{ .Title }}</h1>
         <audio
+          id="podcast"
           src="{{ .Site.Params.StaticURL }}{{ .Params.audio }}"
           controls="controls"
           preload="auto">
