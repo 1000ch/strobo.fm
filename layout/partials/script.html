@@ -11,7 +11,15 @@
 </script>
 <script>
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
+    if (location.href.includes('http://localhost:1313/')) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (const registration of registrations) {
+          registration.unregister();
+        }
+      });
+    } else {
+      navigator.serviceWorker.register('/sw.js');
+    }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
