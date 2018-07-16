@@ -1,7 +1,8 @@
 .Header {
+  position: relative;
   height: 200px;
   margin: 0 calc((100vw - 100%) / -2);
-  padding: 0 calc((100vw - 100%) / 2);
+  padding: calc(var(--size-base) * 4) calc((100vw - 100%) / 2);
   background-color: #333;
   background-image:
     url("/img/background-cover.svg"),
@@ -11,21 +12,19 @@
   background-size: cover;
 }
 
+.Header a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .Header__Item {
-  display: flex;
-  height: 100%;
   padding: 0 calc(var(--space-base) * 2);
 }
 
-.Header__Item h1 {
+.Header__Title {
   text-shadow:
     3px 3px 10px #333,
     3px -3px 10px #333,
     -3px 3px 10px #333,
     -3px -3px 10px #333;
-}
-
-.Header__Item a {
-  text-decoration: none;
-  color: #fff;
 }
