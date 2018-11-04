@@ -39,6 +39,10 @@
       localStorage.setItem(key, parseInt(podcast.currentTime, 10));
     });
 
+    podcast.addEventListener('ended', () => {
+      localStorage.removeItem(key);
+    });
+
     document.querySelectorAll('#playbackRate input[type=radio]').forEach(radio => {
       radio.addEventListener('click', () => {
         podcast.playbackRate = Number(radio.value);
