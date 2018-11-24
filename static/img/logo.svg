@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect x="0  " y="0" width="100" height="100" stroke="#93BBD8" fill="#93BBD8"/>
+  <rect x="100" y="0" width="100" height="100" stroke="#91BCD9" fill="#91BCD9"/>
+  <rect x="200" y="0" width="100" height="100" stroke="#BBD2E8" fill="#BBD2E8"/>
+  <rect x="300" y="0" width="100" height="100" stroke="#CCDBF1" fill="#CCDBF1"/>
+  <rect x="400" y="0" width="100" height="100" stroke="#CCDAED" fill="#CCDAED"/>
+
+  <rect x="0  " y="100" width="100" height="100" stroke="#A9C4DA" fill="#A9C4DA"/>
+  <rect x="100" y="100" width="100" height="100" stroke="#B0CDE0" fill="#B0CDE0"/>
+  <rect x="200" y="100" width="100" height="100" stroke="#7FA9BD" fill="#7FA9BD"/>
+  <rect x="300" y="100" width="100" height="100" stroke="#87AFC4" fill="#87AFC4"/>
+  <rect x="400" y="100" width="100" height="100" stroke="#BDD2E3" fill="#BDD2E3"/>
+
+  <rect x="0  " y="200" width="100" height="100" stroke="#89A8AC" fill="#89A8AC"/>
+  <rect x="100" y="200" width="100" height="100" stroke="#97AFB6" fill="#97AFB6"/>
+  <rect x="200" y="200" width="100" height="100" stroke="#DFDBE6" fill="#DFDBE6"/>
+  <rect x="300" y="200" width="100" height="100" stroke="#B4B4BC" fill="#B4B4BC"/>
+  <rect x="400" y="200" width="100" height="100" stroke="#B5C3CD" fill="#B5C3CD"/>
+
+  <rect x="0  " y="300" width="100" height="100" stroke="#9EA09C" fill="#9EA09C"/>
+  <rect x="100" y="300" width="100" height="100" stroke="#BEBEC3" fill="#BEBEC3"/>
+  <rect x="200" y="300" width="100" height="100" stroke="#8D9298" fill="#8D9298"/>
+  <rect x="300" y="300" width="100" height="100" stroke="#C7C6CD" fill="#C7C6CD"/>
+  <rect x="400" y="300" width="100" height="100" stroke="#C1AE9F" fill="#C1AE9F"/>
+
+  <rect x="0  " y="400" width="100" height="100" stroke="#C6C5CC" fill="#C6C5CC"/>
+  <rect x="100" y="400" width="100" height="100" stroke="#BEC0C6" fill="#BEC0C6"/>
+  <rect x="200" y="400" width="100" height="100" stroke="#C6C7CD" fill="#C6C7CD"/>
+  <rect x="300" y="400" width="100" height="100" stroke="#A6ADB6" fill="#A6ADB6"/>
+  <rect x="400" y="400" width="100" height="100" stroke="#C3C6CC" fill="#C3C6CC"/>
+</svg>
