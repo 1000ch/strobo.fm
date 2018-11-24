@@ -82,7 +82,8 @@ export default class FacebookButton extends HTMLElement {
   }
 
   get href() {
-    return this.getAttribute('href') || '';
+    const href = this.getAttribute('href') || '';
+    return encodeURIComponent(href);
   }
 
   set href(newValue) {
@@ -114,7 +115,6 @@ export default class FacebookButton extends HTMLElement {
   }
 
   getInlineFrameSource() {
-    const src = `//www.facebook.com/plugins/like.php?href=${this.href}&send=false&layout=${this.layout}&amp;width=${this.width}&height=${this.height}` + `&show_faces=${this.showfaces}&font=${this.font}&colorscheme=${this.colorscheme}&action=${this.action}`;
-    return decodeURIComponent(src);
+    return `//www.facebook.com/plugins/like.php?href=${this.href}&send=false&layout=${this.layout}&amp;width=${this.width}&height=${this.height}` + `&show_faces=${this.showfaces}&font=${this.font}&colorscheme=${this.colorscheme}&action=${this.action}`;
   }
 }

@@ -74,7 +74,8 @@ export default class TwitterButton extends HTMLElement {
   }
 
   get hashtag() {
-    return this.getAttribute('hashtag') || '';
+    const hashtag = this.getAttribute('hashtag') || '';
+    return encodeURIComponent(hashtag);
   }
 
   set hashtag(newValue) {
@@ -82,7 +83,8 @@ export default class TwitterButton extends HTMLElement {
   }
 
   get href() {
-    return this.getAttribute('href') || '';
+    const href = this.getAttribute('href') || '';
+    return encodeURIComponent(href);
   }
 
   set href(newValue) {
@@ -90,7 +92,8 @@ export default class TwitterButton extends HTMLElement {
   }
 
   get text() {
-    return this.getAttribute('text') || '';
+    const text = this.getAttribute('text') || '';
+    return encodeURIComponent(text);
   }
 
   set text(newValue) {
@@ -98,7 +101,8 @@ export default class TwitterButton extends HTMLElement {
   }
 
   get user() {
-    return this.getAttribute('user') || '';
+    const user = this.getAttribute('user') || '';
+    return encodeURIComponent(user);
   }
 
   set user(newValue) {
@@ -106,21 +110,21 @@ export default class TwitterButton extends HTMLElement {
   }
 
   getInlineFrameSource() {
-    let src = '';
     switch (this.type) {
       case 'follow':
-        src = `//platform.twitter.com/widgets/follow_button.html?screen_name=${this.user}`;
+        return `//platform.twitter.com/widgets/follow_button.html?screen_name=${this.user}`;
         break;
       case 'share':
-        src = `//platform.twitter.com/widgets/tweet_button.html?url=${this.href}&via=${this.user}&text=${this.text}`;
+        return `//platform.twitter.com/widgets/tweet_button.html?url=${this.href}&via=${this.user}&text=${this.text}`;
         break;
       case 'hashtag':
-        src = `//platform.twitter.com/widgets/tweet_button.html?text=${this.text}&button_hashtag=${this.hashtag}&type=hashtag`;
+        return `//platform.twitter.com/widgets/tweet_button.html?text=${this.text}&button_hashtag=${this.hashtag}&type=hashtag`;
         break;
       case 'mention':
-        src = `//platform.twitter.com/widgets/tweet_button.html?screen_name=${this.user}&type=mention`;
+        return `//platform.twitter.com/widgets/tweet_button.html?screen_name=${this.user}&type=mention`;
         break;
+      default:
+        return '';
     }
-    return decodeURIComponent(src);
   }
 }
