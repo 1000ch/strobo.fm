@@ -48,7 +48,7 @@
           </div>
         </nav>
         <h1>People</h1>
-        <ul class="People">
+        <ul class="People -spread">
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
             {{ if ne $term $key }}
               <li class="People__Item">

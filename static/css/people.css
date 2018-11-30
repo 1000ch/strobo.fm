@@ -6,6 +6,10 @@
   list-style-type: none;
 }
 
+.People.-spread {
+  justify-content: space-around;
+}
+
 .People__Item {
   display: flex;
   flex-direction: column;
