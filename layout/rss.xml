@@ -12,7 +12,7 @@
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <itunes:author>Shogo Sensui</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{ .Site.BaseURL }}/img/icon/1920.jpg" />
+    <itunes:image href="{{ .Site.BaseURL }}/img/logo.png" />
     <itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords>
     <itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle>
     <itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary>
