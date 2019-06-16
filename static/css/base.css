@@ -2,6 +2,10 @@
   --size-base: 8px;
   --space-base: 8px;
   --radius-base: 4px;
+  --light-color: #333;
+  --light-bgcolor: #fff;
+  --dark-color: #999;
+  --dark-bgcolor: #111;
 }
 
 * {
@@ -17,11 +21,19 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
+  color: var(--light-color);
+  background-color: var(--light-bgcolor);
   font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-1000ch", sans-serif;
   font-size: 1.6em;
   font-weight: normal;
   line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--dark-color);
+    background-color: var(--dark-bgcolor);
+  }
 }
 
 blockquote {
@@ -47,7 +59,8 @@ audio {
 
 button {
   padding: calc(var(--space-base) / 2) var(--space-base);
+  color: inherit;
   border: solid 1px #ccc;
   border-radius: var(--radius-base);
-  background-color: #fff;
+  background-color: inherit;
 }
