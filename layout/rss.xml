@@ -22,7 +22,7 @@
       <itunes:email>shogosensui@gmail.com</itunes:email>
     </itunes:owner>
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
-    {{ range .Data.Pages }}
+    {{ range .Site.RegularPages }}
       <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
