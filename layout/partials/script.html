@@ -25,28 +25,38 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     const podcast = document.querySelector('#podcast');
-    if (podcast === null) {
-      return;
-    }
+    const playbackRate = document.querySelector('#playbackRate');
 
-    const key = location.pathname;
-    const savedTime = Number(localStorage.getItem(key));
+    const KEY_CURRENT_TIME = location.pathname;
+    const KEY_PLAYBACK_RATE = 'playbackRate';
+    const KEY_PLAYBACK_RATE_INDEX = 'playbackRateIndex';
+    const savedTime = Number(localStorage.getItem(KEY_CURRENT_TIME));
+    const savedPlaybackRate = Number(localStorage.getItem(KEY_PLAYBACK_RATE));
+    const savedPlaybackRateIndex = Number(localStorage.getItem(KEY_PLAYBACK_RATE_INDEX));
     if (savedTime) {
       podcast.currentTime = savedTime;
     }
 
+    if (savedPlaybackRate) {
+      podcast.playbackRate = savedPlaybackRate;
+    }
+
+    if (savedPlaybackRateIndex) {
+      playbackRate.selectedIndex = savedPlaybackRateIndex;
+    }
+
     podcast.addEventListener('timeupdate', () => {
-      localStorage.setItem(key, parseInt(podcast.currentTime, 10));
+      localStorage.setItem(KEY_CURRENT_TIME, parseInt(podcast.currentTime, 10));
     });
 
     podcast.addEventListener('ended', () => {
-      localStorage.removeItem(key);
+      localStorage.removeItem(KEY_CURRENT_TIME);
     });
 
-    document.querySelectorAll('#playbackRate input[type=radio]').forEach(radio => {
-      radio.addEventListener('click', () => {
-        podcast.playbackRate = Number(radio.value);
-      });
+    playbackRate.addEventListener('change', () => {
+      podcast.playbackRate = Number(playbackRate.value);
+      localStorage.setItem(KEY_PLAYBACK_RATE, playbackRate.value);
+      localStorage.setItem(KEY_PLAYBACK_RATE_INDEX, playbackRate.selectedIndex);
     });
 
     document.querySelectorAll('#currentTime button').forEach(button => {

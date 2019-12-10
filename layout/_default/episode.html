@@ -15,11 +15,15 @@
           controls="controls"
           preload="auto">
         </audio>
-        <div id="playbackRate" class="Control">
-          <label><input type="radio" name="playbackRate" value="0.75">0.75倍速</label>
-          <label><input type="radio" name="playbackRate" value="1.0" checked>1.0倍速</label>
-          <label><input type="radio" name="playbackRate" value="1.25">1.25倍速</label>
-          <label><input type="radio" name="playbackRate" value="1.5">1.5倍速</label>
+        <div class="Control">
+          <select id="playbackRate">
+            <option value="0.75">0.75倍速</option>
+            <option value="1.0" selected>1.0倍速</option>
+            <option value="1.25">1.25倍速</option>
+            <option value="1.5">1.5倍速</option>
+            <option value="1.75">1.75倍速</option>
+            <option value="2.0">2.0倍速</option>
+          </select>
         </div>
         <div id="currentTime" class="Control">
           <button value="-30">30秒戻る</button>
