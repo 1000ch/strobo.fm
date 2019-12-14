@@ -23,7 +23,7 @@ body {
   padding: 0;
   color: var(--light-color);
   background-color: var(--light-bgcolor);
-  font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-1000ch", sans-serif;
+  font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-1000ch", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 1.6em;
   font-weight: normal;
   line-height: 1.6;
