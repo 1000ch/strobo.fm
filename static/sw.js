@@ -1,4 +1,4 @@
-const CACHE_KEY = '20190821';
+const CACHE_KEY = '20191221';
 const CACHE_FILES = [
   'background.jpg',
   'background-cover.svg',
@@ -15,26 +15,25 @@ self.addEventListener('install', e => {
   e.waitUntil(self.skipWaiting());
 });
 
-self.addEventListener('activate', e => {
-  const deletion = caches.keys()
-    .then(keys => keys.filter(key => key !== CACHE_KEY))
-    .then(keys => Promise.all(keys.map(key => caches.delete(key))));
+self.addEventListener('activate', async e => {
+  const cacheKeys = await caches.keys();
+  const keys = cacheKeys.filter(key => key !== CACHE_KEY);
+  await Promise.all(keys.map(key => caches.delete(key)));
 
-  e.waitUntil(deletion.then(() => self.clients.claim()));
+  e.waitUntil(self.clients.claim());
 });
 
 self.addEventListener('fetch', e => {
-  const url = new URL(e.request.url);
-
   if (!CACHE_FILES.some(file => e.request.url.includes(file))) {
     return;
   }
 
   const cache = caches.match(e.request).then(response => {
-    return response || fetch(e.request.clone()).then(response => {
+    return response || fetch(e.request.clone()).then(async response => {
       if (response.ok) {
         const clone = response.clone();
-        caches.open(CACHE_KEY).then(cache => cache.put(e.request, clone));
+        const cache = await caches.open(CACHE_KEY);
+        await cache.put(e.request, clone);
       }
 
       return response;
