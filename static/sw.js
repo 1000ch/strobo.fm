@@ -4,16 +4,9 @@ const CACHE_FILES = [
   'background-cover.svg',
   'aside.css',
   'base.css',
-  'container.css',
-  'control.css',
-  'episode.css',
-  'font.css',
   'footer.css',
   'header.css',
-  'main.css',
   'nav.css',
-  'people.css',
-  'subscribe.css',
   'NotoSansCJKjp-Bold.woff2',
   'NotoSansCJKjp-Regular.woff2'
 ];

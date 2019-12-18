@@ -8,6 +8,28 @@
   --dark-bgcolor: #111;
 }
 
+@font-face {
+  font-family: "NotoSansCJKjp-1000ch";
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+  src:
+    local("NotoSansCJKjp-Regular.otf"),
+    local("NotoSansJP-Regular.otf"),
+    url("/font/NotoSansCJKjp-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NotoSansCJKjp-1000ch";
+  font-weight: 600;
+  font-style: normal;
+  font-display: optional;
+  src:
+    local("NotoSansCJKjp-Bold.otf"),
+    local("NotoSansJP-Bold.otf"),
+    url("/font/NotoSansCJKjp-Bold.woff2") format("woff2");
+}
+
 * {
   box-sizing: border-box;
 }
