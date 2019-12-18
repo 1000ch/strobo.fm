@@ -33,20 +33,7 @@
             </li>
           {{ end }}
         </ul>
-        <nav class="Nav">
-          <div class="Nav__Prev">
-            {{ if .Paginator.HasPrev }}
-              <a href="{{ .Paginator.Prev.URL }}">👈 Prev</a>
-            {{ else }}
-            {{ end }}
-          </div>
-          <div class="Nav__Next">
-            {{ if .Paginator.HasNext }}
-              <a href="{{ .Paginator.Next.URL }}">Next 👉</a>
-            {{ else }}
-            {{ end }}
-          </div>
-        </nav>
+        {{ partial "nav.html" . }}
         <h1>People</h1>
         <ul class="People -spread">
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
