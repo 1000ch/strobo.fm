@@ -8,3 +8,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.Episode__Item h2 {
+  padding-right: var(--space-base);
+}
