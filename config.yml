@@ -13,4 +13,4 @@ permalinks:
 taxonomies:
   people: "people"
 params:
-  StaticURL: "https://strobofm.netlify.com"
+  StaticURL: "https://strobofm.netlify.app"
