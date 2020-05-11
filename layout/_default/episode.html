@@ -16,14 +16,21 @@
           preload="auto">
         </audio>
         <div class="Control">
-          <select id="playbackRate">
-            <option value="0.75">0.75倍速</option>
-            <option value="1.0" selected>1.0倍速</option>
-            <option value="1.25">1.25倍速</option>
-            <option value="1.5">1.5倍速</option>
-            <option value="1.75">1.75倍速</option>
-            <option value="2.0">2.0倍速</option>
-          </select>
+          <label for="playbackRate">
+            再生速度
+          </label>
+          <div class="PlaybackRate">
+            <datalist id="playbackRates">
+              <option value="0.75" label="0.75">0.75</option>
+              <option value="1.0" label="1.0" selected>1.0</option>
+              <option value="1.25" label="1.25">1.25</option>
+              <option value="1.5" label="1.5">1.5</option>
+              <option value="1.75" label="1.75">1.75</option>
+              <option value="2.0" label="2.0">2.0</option>
+            </datalist>
+            <input id="playbackRate" type="range" min="0.75" max="2" step="0.25" list="playbackRates">
+          </div>
+          倍速
         </div>
         <div id="currentTime" class="Control">
           <button value="-30">30秒戻る</button>

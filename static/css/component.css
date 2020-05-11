@@ -19,9 +19,30 @@
 }
 
 .Control > * {
-  display: inline-flex;
-  align-items: center;
   margin: 0 calc(var(--space-base) / 2);
+}
+
+.PlaybackRate {
+  display: flex;
+  flex-direction: column;
+}
+
+.PlaybackRate datalist {
+  display: inline-flex;
+}
+
+.PlaybackRate datalist option {
+  margin: 0;
+  width: 32px;
+  text-align: center;
+}
+
+.PlaybackRate datalist option:first-child {
+  margin-left: -6px;
+}
+
+.PlaybackRate datalist option:last-child {
+  margin-right: -6px;
 }
 
 .People {
