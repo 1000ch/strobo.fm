@@ -1,0 +1,22 @@
+{
+  "short_name": "#strobofm",
+  "name": "#strobofm",
+  "theme_color": "#333333",
+  "background_color": "#333333",
+  "icons": [
+    {
+      "src": "img/icon/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "src": "img/icon/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
