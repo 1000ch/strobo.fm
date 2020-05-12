@@ -31,6 +31,15 @@
   display: inline-flex;
 }
 
+.PlaybackRate datalist option {
+  margin: 0 2px;
+}
+
+.PlaybackRate datalist option:first-child,
+.PlaybackRate datalist option:last-child {
+  margin: 0;
+}
+
 .People {
   display: flex;
   flex-direction: row;
