@@ -32,12 +32,17 @@
 }
 
 .PlaybackRate datalist option {
-  margin: 0 2px;
+  margin: 0;
+  width: 32px;
+  text-align: center;
 }
 
-.PlaybackRate datalist option:first-child,
+.PlaybackRate datalist option:first-child {
+  margin-left: -6px;
+}
+
 .PlaybackRate datalist option:last-child {
-  margin: 0;
+  margin-right: -6px;
 }
 
 .People {
