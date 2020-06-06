@@ -1,25 +1,18 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/aside.css">
 <aside class="Aside">
-  <facebook-button
-    class="Aside__Item"
-    layout="button_count"
-    width="91"
-    height="20"
-    href="{{ .Permalink }}">
-  </facebook-button>
-  <twitter-button
-    class="Aside__Item"
-    type="share"
-    width="62"
-    height="20"
-    href="{{ .Permalink }}"
-    text="{{ .Site.Title }} {{ .Title }}">
-  </twitter-button>
+  <a id="share" style="display: inline-flex;">
+    <img src="https://icongr.am/fontawesome/twitter.svg?color=1da1f2" width="24" height="24" alt="" style="margin-right: 4px;">
+    このエピソードを Twitter でシェアする
+  </a>
 </aside>
-<script type="module">
-  import TwitterButton from '/js/twitter-button.js';
-  import FacebookButton from '/js/facebook-button.js';
+<script defer>
+  document.addEventListener('DOMContentLoaded', () => {
+    const share = document.querySelector('#share');
+    share.addEventListener('click', () => {
+      const url = encodeURIComponent(location.href);
+      const title = encodeURIComponent(document.title);
 
-  customElements.define('twitter-button', TwitterButton);
-  customElements.define('facebook-button', FacebookButton);
+      window.open(`https:\/\/twitter.com\/share?url=${url}&text=${title}`, '_blank');
+    });
+  });
 </script>
