@@ -1,6 +1,5 @@
 :root {
   --size-base: 8px;
-  --space-base: 8px;
   --radius-base: 4px;
   --light-color: #333;
   --light-bgcolor: #fff;
@@ -59,8 +58,8 @@ body {
 }
 
 blockquote {
-  margin: calc(var(--space-base) * 2) 0;
-  padding: 0 calc(var(--space-base) * 2);
+  margin: 16px 0;
+  padding: 0 16px;
   border: 0.1em dashed #666;
   font-style: italic;
 }
@@ -68,6 +67,7 @@ blockquote {
 a {
   text-decoration: none;
   color: #777;
+  cursor: pointer;
 }
 
 a:hover {
@@ -80,7 +80,7 @@ audio {
 }
 
 button {
-  padding: calc(var(--space-base) / 2) var(--space-base);
+  padding: 4px 8px;
   color: inherit;
   border: solid 1px #ccc;
   border-radius: var(--radius-base);

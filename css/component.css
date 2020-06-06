@@ -7,19 +7,19 @@
 
 .Main {
   min-height: calc(100vh - 400px);
-  padding: calc(var(--space-base) * 4) calc(var(--space-base) * 2);
+  padding: 32px 16px;
 }
 
 .Control {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: calc(var(--space-base) * 1.5) 0;
+  margin: 8px 0;
   font-size: 0.8em;
 }
 
 .Control > * {
-  margin: 0 calc(var(--space-base) / 2);
+  margin: 0 4px;
 }
 
 .PlaybackRate {
@@ -61,7 +61,7 @@
   display: flex;
   flex-direction: column;
   width: 96px;
-  margin-bottom: calc(var(--space-base) * 2);
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -80,7 +80,8 @@
 }
 
 .Subscribe__Item {
-  height: calc(var(--size-base) * 3);
+  height: 24px;
+  margin-bottom: 4px;
 }
 
 .Subscribe__Item a {
@@ -89,8 +90,8 @@
 }
 
 .Subscribe__Item img {
-  width: 20px;
-  margin-right: calc(var(--space-base) / 2);
+  width: 24px;
+  margin-right: 4px;
 }
 
 .Episode {
@@ -105,5 +106,5 @@
 }
 
 .Episode__Item h2 {
-  padding-right: var(--space-base);
+  padding-right: 8px;
 }

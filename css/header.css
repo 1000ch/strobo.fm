@@ -18,7 +18,7 @@
 }
 
 .Header__Item {
-  padding: 0 calc(var(--space-base) * 2);
+  padding: 0 16px;
 }
 
 .Header__Title {

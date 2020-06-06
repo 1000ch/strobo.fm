@@ -1,5 +1,5 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  margin-top: calc(var(--space-base) * 4);
+  margin-top: 32px;
 }
