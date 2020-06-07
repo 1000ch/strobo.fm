@@ -59,5 +59,47 @@
       {{ partial "footer.html" . }}
     </div>
     {{ partial "script.html" . }}
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const podcast = document.querySelector('#podcast');
+        const playbackRate = document.querySelector('#playbackRate');
+
+        const KEY_CURRENT_TIME = location.pathname;
+        const KEY_PLAYBACK_RATE = 'playbackRate';
+        const savedTime = Number(localStorage.getItem(KEY_CURRENT_TIME));
+        const savedPlaybackRate = Number(localStorage.getItem(KEY_PLAYBACK_RATE));
+
+        if (savedTime) {
+          podcast.currentTime = savedTime;
+        }
+
+        if (savedPlaybackRate) {
+          podcast.playbackRate = savedPlaybackRate;
+          playbackRate.value = savedPlaybackRate;
+        } else {
+          podcast.playbackRate = 1;
+          playbackRate.value = 1;
+        }
+
+        podcast.addEventListener('timeupdate', () => {
+          localStorage.setItem(KEY_CURRENT_TIME, parseInt(podcast.currentTime, 10));
+        });
+
+        podcast.addEventListener('ended', () => {
+          localStorage.removeItem(KEY_CURRENT_TIME);
+        });
+
+        playbackRate.addEventListener('change', () => {
+          podcast.playbackRate = playbackRate.valueAsNumber;
+          localStorage.setItem(KEY_PLAYBACK_RATE, playbackRate.value);
+        });
+
+        document.querySelectorAll('#currentTime button').forEach(button => {
+          button.addEventListener('click', () => {
+            podcast.currentTime += Number(button.value);
+          });
+        });
+      });
+    </script>
   </body>
 </html>
