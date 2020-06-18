@@ -18,9 +18,8 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', async e => {
   const cacheKeys = await caches.keys();
   const keys = cacheKeys.filter(key => key !== CACHE_KEY);
-  await Promise.all(keys.map(key => caches.delete(key)));
 
-  e.waitUntil(self.clients.claim());
+  e.waitUntil(Promise.all(keys.map(key => caches.delete(key))));
 });
 
 self.addEventListener('fetch', e => {
