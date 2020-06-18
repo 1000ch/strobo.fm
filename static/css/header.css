@@ -1,8 +1,7 @@
 .Header {
   position: relative;
   height: 200px;
-  margin: 0 calc((100vw - 100%) / -2);
-  padding: calc(var(--size-base) * 4) calc((100vw - 100%) / 2);
+  padding: calc(var(--size-base) * 4) 0;
   background-color: #333;
   background-image:
     url("/img/background-cover.svg"),
@@ -15,10 +14,6 @@
 .Header a {
   text-decoration: none;
   color: #fff;
-}
-
-.Header__Item {
-  padding: 0 16px;
 }
 
 .Header__Title {

@@ -5,8 +5,8 @@
     {{ partial "meta.html" . }}
   </head>
   <body>
+    {{ partial "header.html" . }}
     <div class="Container">
-      {{ partial "header.html" . }}
       <main class="Main">
         <h1>{{ .Title }}</h1>
         <audio
@@ -56,8 +56,8 @@
         {{ .Content }}
         {{ partial "aside.html" . }}
       </main>
-      {{ partial "footer.html" . }}
     </div>
+    {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
     <script>
       document.addEventListener('DOMContentLoaded', () => {
