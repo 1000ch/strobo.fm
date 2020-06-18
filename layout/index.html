@@ -5,8 +5,8 @@
     {{ partial "meta.html" . }}
   </head>
   <body>
+    {{ partial "header.html" . }}
     <div class="Container">
-      {{ partial "header.html" . }}
       <main class="Main">
         {{ $paginator := .Paginate .Site.RegularPages }}
         <ul class="Episode">
@@ -19,8 +19,8 @@
         </ul>
         {{ partial "nav.html" . }}
       </main>
-      {{ partial "footer.html" . }}
     </div>
+    {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
   </body>
 </html>

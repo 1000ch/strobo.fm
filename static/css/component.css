@@ -1,13 +1,14 @@
 .Container {
   min-width: calc(var(--size-base) * 40);
-  max-width: calc(var(--size-base) * 80);
-  min-height: 100vh;
+  max-width: calc(var(--size-base) * 78);
   margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .Main {
   min-height: calc(100vh - 400px);
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .Control {
