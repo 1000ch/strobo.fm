@@ -7,8 +7,8 @@
   <body>
     {{ $term := .Data.Term }}
     {{ partial "header.html" . }}
-    <div class="Container">
-      <main class="Main">
+    <main class="Main">
+      <div class="Container">
         <ul class="People">
           {{ range $key, $taxonomy := .Site.Taxonomies.people }}
             {{ if eq $term $key }}
@@ -50,8 +50,8 @@
             {{ end }}
           {{ end }}
         </ul>
-      </main>
-    </div>
+      </div>
+    </main>
     {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
   </body>

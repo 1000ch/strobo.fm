@@ -6,8 +6,8 @@
   </head>
   <body>
     {{ partial "header.html" . }}
-    <div class="Container">
-      <main class="Main">
+    <main class="Main">
+      <div class="Container">
         <h1>{{ .Title }}</h1>
         <audio
           id="podcast"
@@ -55,8 +55,8 @@
         <h2>Notes</h2>
         {{ .Content }}
         {{ partial "aside.html" . }}
-      </main>
-    </div>
+      </div>
+    </main>
     {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
     <script>

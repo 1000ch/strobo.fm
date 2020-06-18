@@ -6,8 +6,8 @@
   </head>
   <body>
     {{ partial "header.html" . }}
-    <div class="Container">
-      <main class="Main">
+    <main class="Main">
+      <div class="Container">
         {{ $paginator := .Paginate .Site.RegularPages }}
         <ul class="Episode">
           {{ range $paginator.Pages }}
@@ -18,8 +18,8 @@
           {{ end }}
         </ul>
         {{ partial "nav.html" . }}
-      </main>
-    </div>
+      </div>
+    </main>
     {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
   </body>
