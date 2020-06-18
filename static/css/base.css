@@ -1,6 +1,4 @@
 :root {
-  --size-base: 8px;
-  --radius-base: 4px;
   --light-color: #333;
   --light-bgcolor: #fff;
   --dark-color: #999;
@@ -84,6 +82,6 @@ button {
   padding: 4px 8px;
   color: inherit;
   border: solid 1px #ccc;
-  border-radius: var(--radius-base);
+  border-radius: 4px;
   background-color: inherit;
 }
