@@ -1,6 +1,6 @@
 .Footer {
   min-height: 200px;
-  padding: calc(var(--size-base) * 4) 0;
+  padding: 32px 0;
   color: #fff;
   background-color: #333;
 }
