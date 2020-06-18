@@ -5,7 +5,7 @@
   background-color: #333;
 }
 
-.Footer__inner {
+.Footer__Inner {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -16px;
