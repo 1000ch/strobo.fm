@@ -14,3 +14,7 @@ taxonomies:
   people: "people"
 params:
   StaticURL: "https://strobofm.netlify.app"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
