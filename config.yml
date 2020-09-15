@@ -13,7 +13,7 @@ permalinks:
 taxonomies:
   people: "people"
 params:
-  StaticURL: "https://strobofm.netlify.app"
+  StaticURL: "https://chtbl.com/track/GG45GF/strobofm.netlify.app"
 markup:
   goldmark:
     renderer:
