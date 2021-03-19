@@ -1,0 +1,12 @@
+{{ if .Site.Data.sponsors }}
+  <h2>Sponsors</h2>
+  <ul>
+    {{ range $key, $sponsor := .Site.Data.sponsors }}
+      <li>
+        <a href="{{ index $.Site.Data.sponsors $key "url" }}">
+          {{ index $.Site.Data.sponsors $key "title" }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
