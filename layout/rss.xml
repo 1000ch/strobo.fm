@@ -31,7 +31,7 @@
           <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
         {{end}}
         <guid>{{ .Permalink }}</guid>
-        <description>{{ .Content | html }}</description>
+        <description>{{ partial "contents.html" . | html }}</description>
         <itunes:explicit>no</itunes:explicit>
         <itunes:subtitle>{{ .Summary | html }}</itunes:subtitle>
         <itunes:duration>{{ .Params.Duration }}</itunes:duration>

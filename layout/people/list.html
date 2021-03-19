@@ -10,7 +10,7 @@
     <main class="Main">
       <div class="Container">
         <ul class="People">
-          {{ range $key, $taxonomy := .Site.Taxonomies.people }}
+          {{ range $key, $person := .Site.Data.people }}
             {{ if eq $term $key }}
               <li class="People__Item">
                 <a href="/people/{{ $term }}">
@@ -36,7 +36,7 @@
         {{ partial "nav.html" . }}
         <h1>People</h1>
         <ul class="People -spread">
-          {{ range $key, $taxonomy := .Site.Taxonomies.people }}
+          {{ range $key, $person := .Site.Data.people }}
             {{ if ne $term $key }}
               <li class="People__Item">
                 <a href="/people/{{ $key }}">

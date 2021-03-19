@@ -38,22 +38,8 @@
           <button value="+10">10秒進む</button>
           <button value="+30">30秒進む</button>
         </div>
-        <h2>Casts</h2>
-        <ul class="People">
-          {{ range $person := .Params.people }}
-            <li class="People__Item">
-              <a href="/people/{{ $person }}">
-                <img
-                  alt=""
-                  class="People__Avatar"
-                  src="{{ index $.Site.Data.people $person "image" }}">
-                <div>{{ $person }}</div>
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-        <h2>Notes</h2>
-        {{ .Content }}
+        {{ partial "people.html" . }}
+        {{ partial "contents.html" . }}
         {{ partial "aside.html" . }}
       </div>
     </main>

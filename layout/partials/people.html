@@ -1,0 +1,16 @@
+{{ if .Params.people }}
+  <h2>Casts</h2>
+  <ul class="People">
+    {{ range $person := .Params.people }}
+      <li class="People__Item">
+        <a href="/people/{{ $person }}">
+          <img
+            alt=""
+            class="People__Avatar"
+            src="{{ index $.Site.Data.people $person "image" }}">
+          <div>{{ $person }}</div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
