@@ -1,4 +1,36 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.109 右の方 (@sgmtqq)</title><link>https://strobo.fm/episode/109/</link><pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/109/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.110 ヒートショックプロテイン (@kitak)</title><link>https://strobo.fm/episode/110/</link><pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/110/</guid><description>
+&lt;h2>Sponsors&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://drsprime.com/recruit/">
+救急車のたらい回しをなくす！ドクターズプライムでソフトウェアエンジニア募集中
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Notes&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.hotespa.net/hotels/korakuen/">【公式】春日の湯　ドーミーイン後楽園 / ホテル 後楽園 ホテスパ - HOTESPA.net&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hotespa.net/hotels/ikebukuro/">【公式】天然温泉 豊穣の湯 ドーミーイン池袋｜ホテル宿泊予約 – ドーミーイン&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thermae-yu.jp/">東京新宿天然温泉テルマー湯&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tv-tokyo.co.jp/sa_una37_2021/">【ドラマ25】サ道2021｜出演：原田泰造 三宅弘城 磯村勇斗｜テレビ東京&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://spa.new-wing.com/spa">スパ&amp;amp;サウナ | スパ＆カプセル　ニューウイング&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://koganeyu.com/">黄金湯 | 墨田区太平オリナス錦糸町近くにある下町銭湯&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kk-bestsellers.com/articles/-/8172/">「日本サウナ・スパ協会」推奨　サウナで健康効果を最大限引き出す方法 ｜BEST TiMES（ベストタイムズ）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.edoyu.com/ryougoku/">両国湯屋江戸遊&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.solosauna-tune.com/">【公式】ソロサウナtune - 完全個室の本格フィンランド式サウナ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://flutter.dev/docs/development/accessibility-and-localization/accessibility">Accessibility - Flutter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://10x.co.jp/">10X, Inc.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.itoyokado.co.jp/">イトーヨーカドー トップページ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.fresta.co.jp/">株式会社フレスタ - ココロ、カラダにスマイル。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.yakuodo.co.jp/">薬王堂 - あなたのちかくに -&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.life-netsuper.jp/">ライフネットスーパー | スーパーマーケットライフの商品をパソコンやスマートフォンからお買い物！（地域限定）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://news.yahoo.co.jp/articles/98d2bc3708f98085bb0922a86f57cca06dc8eb18">アトレティコのキーマンも“16時間断食”実践中　好調の秘訣は食事革命なのか（theWORLD（ザ・ワールドWeb）） - Yahoo!ニュース&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=qxUwrcI79RU">【空腹こそ最強のクスリ①】一日3食は間違いだった？無理なく痩せる食事法（Fasting Is the Best Medicine） - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=BMN1b5Q7Gpw">【空腹こそ最強のクスリ②】空腹時間が病気を遠ざける（Fasting Is the Best Medicine） - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.huffingtonpost.jp/office-de-yasai-news/amazake-fasting-diet_b_9323264.html">今話題の甘酒でファスティングダイエット | ハフポスト LIFE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://president.jp/articles/-/43358?page=3">｢16時間はなにも食べるな｣最新医学が勧めるプチ断食の3大効能 ｢空腹｣こそ長寿と健康のカギだった (3ページ目) | PRESIDENT Online（プレジデントオンライン）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.co.jp/dp/B085TWLMF9">Amazon | 【Amazon.co.jp 限定】Dell 4Kモニター 27インチ U2720QM(3年間無輝点交換保証付/広視野角/HDR/IPS非光沢/フリッカーフリー/USB Type-C,DP,HDMI/高さ調整/回転) | Dell | パソコン・周辺機器 通販&lt;/a>&lt;/li>
+&lt;/ul></description><itunes:explicit>no</itunes:explicit><itunes:subtitle>【公式】春日の湯　ドーミーイン後楽園 / ホテル 後楽園 ホテスパ - HOTESPA.net 【公式】天然温泉 豊穣の湯 ドーミーイン池袋｜ホテル宿泊予約 – ドーミーイン 東京新宿天然温泉テルマー湯 【ドラマ25】サ道2021｜出演：原田泰造 三宅弘城 磯村勇斗｜テレビ東京 スパ&amp;amp;サウナ | スパ＆カプセル　ニューウイング 黄金湯 | 墨田区太平オリナス錦糸町近くにある下町銭湯 「日本サウナ・スパ協会」推奨　サウナで健康効果を最大限引き出す方法 ｜BEST TiMES（ベストタイムズ） 両国湯屋江戸遊 【公式】ソロサウナtune - 完全個室の本格フィンランド式サウナ Accessibility - Flutter 10X, Inc. イトーヨーカドー トップページ 株式会社フレスタ - ココロ、カラダにスマイル。 薬王堂 - あなたのちかくに - ライフネットスーパー | スーパーマーケットライフの商品をパソコンやスマートフォンからお買い物！（地域限定） アトレティコのキーマンも“16時間断食”実践中　好調の秘訣は食事革命なのか（theWORLD（ザ・ワールドWeb）） - Yahoo!ニュース 【空腹こそ最強のクスリ①】一日3食は間違いだった？無理なく痩せる食事法（Fasting Is the Best Medicine） - YouTube 【空腹こそ最強のクスリ②】空腹時間が病気を遠ざける（Fasting Is the Best Medicine） - YouTube 今話題の甘酒でファスティングダイエット | ハフポスト LIFE ｢16時間はなにも食べるな｣最新医学が勧めるプチ断食の3大効能 ｢空腹｣こそ長寿と健康のカギだった (3ページ目) | PRESIDENT Online（プレジデントオンライン） Amazon | 【Amazon.</itunes:subtitle><itunes:duration>33:26</itunes:duration><enclosure url="https://chtbl.com/track/GG45GF/strobofm.netlify.app/audio/110.mp3" type="audio/mpeg" length="16052685"/></item><item><title>ep.109 右の方 (@sgmtqq)</title><link>https://strobo.fm/episode/109/</link><pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/109/</guid><description>
 &lt;h2>Sponsors&lt;/h2>
 &lt;ul>
 &lt;li>
