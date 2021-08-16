@@ -1,4 +1,34 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.110 ヒートショックプロテイン (@kitak)</title><link>https://strobo.fm/episode/110/</link><pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/110/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.111 谷株 (@hiloki)</title><link>https://strobo.fm/episode/111/</link><pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/111/</guid><description>
+&lt;h2>Sponsors&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://drsprime.com/recruit/">
+救急車のたらい回しをなくす！ドクターズプライムでソフトウェアエンジニア募集中
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Notes&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://stopcovid19.metro.tokyo.lg.jp/">都内の最新感染動向 | 東京都 新型コロナウイルス感染症対策サイト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.mercari.com/blog/entry/20210810-the-new-mercari-web/">新しいメルカリ Web の話 | メルカリエンジニアリング&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://note.com/hilokit/n/n69bc21654f34">メルカリで15万円失った話する？｜Hiroki Tani｜note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gatsbyjs.com/">Front End Framework With The Speed To Delight | Gatsby | Gatsby&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://reactjs.org/">React – A JavaScript library for building user interfaces&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://nextjs.org/">Next.js by Vercel - The React Framework&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eikaiwa.dmm.com/">DMM英会話｜早期入会で初月50%OFF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sacss.net/special04/">SaCSS Special4 Frontrend in Sapporo 見逃せない！最新フロントエンド技術アップデート特集！&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/simurai">simurai (simurai)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.figma.com/community/plugin/993414361395505148/Contrast-Grid">Contrast Grid – Figma&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://contrast-grid.eightshapes.com/">EightShapes Contrast Grid&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.figma.com/community/plugin/941680506965181089/Color-Styleguide">Color Styleguide – Figma&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.figma.com/community/plugin/868544205592553467/Missing-Fonts-Finder">Missing Fonts Finder – Figma&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/WANPOWANWAN/status/1417541007172796417">森川ジョージ on Twitter: &amp;ldquo;100巻分が無料&amp;hellip;？ いくらなんでもやりすぎだぜ。 10/20までだぜ。 https://t.co/PIIX23HpcC&amp;rdquo; / Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pocket.shonenmagazine.com/episode/13933686331772734561">はじめの一歩 - 森川ジョージ / 【Round 1】The First Step | マガポケ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dokusho-ojikan.jp/">人気マンガを毎日無料で連載中！無料・試し読みも！ | Amebaマンガ (旧 読書のお時間です)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nintendo.co.jp/zelda/index.html">ゼルダの伝説　ブレス オブ ザ ワイルド | Nintendo Switch / Wii U | Nintendo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://strobo.fm/people/sgmtqq/">#strobofm sgmtqq&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%83%AD%E3%83%B3%E3%83%BB%E3%83%9E%E3%82%B9%E3%82%AF">イーロン・マスク - Wikipedia&lt;/a>&lt;/li>
+&lt;/ul></description><itunes:explicit>no</itunes:explicit><itunes:subtitle>都内の最新感染動向 | 東京都 新型コロナウイルス感染症対策サイト 新しいメルカリ Web の話 | メルカリエンジニアリング メルカリで15万円失った話する？｜Hiroki Tani｜note Front End Framework With The Speed To Delight | Gatsby | Gatsby React – A JavaScript library for building user interfaces Next.js by Vercel - The React Framework DMM英会話｜早期入会で初月50%OFF SaCSS Special4 Frontrend in Sapporo 見逃せない！最新フロントエンド技術アップデート特集！ simurai (simurai) Contrast Grid – Figma EightShapes Contrast Grid Color Styleguide – Figma Missing Fonts Finder – Figma 森川ジョージ on Twitter: &amp;ldquo;100巻分が無料&amp;hellip;？ いくらなんでもやりすぎだぜ。 10/20までだぜ。 https://t.</itunes:subtitle><itunes:duration>41:00</itunes:duration><enclosure url="https://chtbl.com/track/GG45GF/strobofm.netlify.app/audio/111.mp3" type="audio/mpeg" length="19684541"/></item><item><title>ep.110 ヒートショックプロテイン (@kitak)</title><link>https://strobo.fm/episode/110/</link><pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/110/</guid><description>
 &lt;h2>Sponsors&lt;/h2>
 &lt;ul>
 &lt;li>
