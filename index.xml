@@ -1,4 +1,42 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.115 Hollywood Debut (@ginpei_jp)</title><link>https://strobo.fm/episode/115/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/115/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>#strobofm</title><link>https://strobo.fm/</link><description>Recent content on #strobofm</description><language>ja</language><lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><itunes:author>Shogo Sensui</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="https://strobo.fm/img/logo.png"/><itunes:keywords>web,technology,gadget,productivity,automation</itunes:keywords><itunes:subtitle>A podcast focusing to web, technology, gadget, productivity, automation</itunes:subtitle><itunes:summary>Web、ガジェット、生産性、自動化などにフォーカスしたポッドキャストです</itunes:summary><itunes:category text="Technology"/><itunes:owner><itunes:name>Shogo Sensui</itunes:name><itunes:email>shogosensui@gmail.com</itunes:email></itunes:owner><atom:link href="https://strobo.fm/" rel="self" type="application/rss+xml"/><item><title>ep.116 俺の入社手続き (@masup9)</title><link>https://strobo.fm/episode/116/</link><pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/116/</guid><description>
+&lt;h2>Sponsors&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://drsprime.com/recruit/">
+救急車のたらい回しをなくす！ドクターズプライムでソフトウェアエンジニア募集中
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Notes&lt;/h2>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">録画嫌すぎて泣いてる&lt;/p>&amp;mdash; ますぴー (@masuP9) &lt;a href="https://twitter.com/masuP9/status/1446023218796453892?ref_src=twsrc%5Etfw">October 7, 2021&lt;/a>&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;a href="https://www.ceatec.com/ja/conference/single.html?contentId=3066">Webアクセシビリティセミナー2: なぜ企業はWebアクセシビリティに取り組むのか？ - CONFERENCE | CEATEC 2021 ONLINE 公式Webサイト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://waic.jp/">ウェブアクセシビリティ基盤委員会 | Web Accessibility Infrastructure Committee (WAIC)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://developers.cyberagent.co.jp/blog/archives/7041/">「アクセシビリティに取り組むことが価値あるサービスづくりにつながる」サイバーエージェント技術者たちの取り組み | CyberAgent Developers Blog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://linedevday.linecorp.com/2020/ja/sessions/6049">どうしてアクセシビリティ？ - アクセシビリティをはじめたきっかけと組織づくり | LINE DEVELOPER DAY 2020&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/channel/UCoLMtdxqcqqXk4Uy6hykkZg">deisui html - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://note.com/shige/n/n48a9b28b8792">プロダクトマーケティングマネージャーとはなにか｜shige@SmartHR｜note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://smarthr.design/">SmartHR Design System&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://smarthr.design/products/design-guide/collection/smarthr-table/">「よくあるテーブル」のレイアウトパターン | プロダクト | SmartHR Design System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kufu/smarthr-ui">kufu/smarthr-ui: React components for creating SmartHR applications.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://designers.fenrir-inc.com/n/ne62aad0bbc3b">はじめてのOOUI(Object-Oriented User Interface)｜Fenrir Designers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://meety.net/matches/bEZkihPvMUJB">俺もお前もデザイナー&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://meety.net/matches/wbCXakcpADlQ">メルカリのプロダクトや Web 技術について、カジュアルに話しましょう！&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://smarthr.jp/case/nagahama/">長浜市役所『SmartHR導入は行政のデジタル化への第一歩。長浜市役所の挑戦』｜SmartHR&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://smarthr.jp/case/list.html">導入企業一覧 ｜SmartHR｜シェアNo.1のクラウド人事労務ソフト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://airvisa.jp/">AIR VISA(SmartHRグループ）エンジニア募集ページ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.rtd.co.jp/lounge/">Nishiazabu RTD | RTD inc.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.co.jp/adlp/watchparty">Prime Videoウォッチパーティ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://m-league.jp/news202108181200/">全32名のMリーガーとの選手契約合意のお知らせ | M.LEAGUE（Mリーグ）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/rumi_0927">二階堂　瑠美🐥さん (@rumi_0927) / Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/elis0323">堀 慎吾🌸さん (@elis0323) / Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://abema.tv/video/title/444-12">Mリーグ2021 - 本編 (麻雀) | 無料動画・見逃し配信を見るなら | ABEMA&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://abema.tv/about/premium">ABEMAプレミアム - 無料体験実施中 | ABEMA&lt;/a>&lt;/li>
+&lt;/ul></description><itunes:explicit>no</itunes:explicit><itunes:subtitle>録画嫌すぎて泣いてる
+&amp;mdash; ますぴー (@masuP9) October 7, 2021 Webアクセシビリティセミナー2: なぜ企業はWebアクセシビリティに取り組むのか？ - CONFERENCE | CEATEC 2021 ONLINE 公式Webサイト ウェブアクセシビリティ基盤委員会 | Web Accessibility Infrastructure Committee (WAIC) 「アクセシビリティに取り組むことが価値あるサービスづくりにつながる」サイバーエージェント技術者たちの取り組み | CyberAgent Developers Blog どうしてアクセシビリティ？ - アクセシビリティをはじめたきっかけと組織づくり | LINE DEVELOPER DAY 2020 deisui html - YouTube プロダクトマーケティングマネージャーとはなにか｜shige@SmartHR｜note SmartHR Design System 「よくあるテーブル」のレイアウトパターン | プロダクト | SmartHR Design System kufu/smarthr-ui: React components for creating SmartHR applications. はじめてのOOUI(Object-Oriented User Interface)｜Fenrir Designers 俺もお前もデザイナー メルカリのプロダクトや Web 技術について、カジュアルに話しましょう！ 長浜市役所『SmartHR導入は行政のデジタル化への第一歩。長浜市役所の挑戦』｜SmartHR 導入企業一覧 ｜SmartHR｜シェアNo.</itunes:subtitle><itunes:duration>45:20</itunes:duration><enclosure url="https://chtbl.com/track/GG45GF/strobofm.netlify.app/audio/116.mp3" type="audio/mpeg" length="21764515"/></item><item><title>ep.115 Hollywood Debut (@ginpei_jp)</title><link>https://strobo.fm/episode/115/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate><guid>https://strobo.fm/episode/115/</guid><description>
 &lt;h2>Sponsors&lt;/h2>
 &lt;ul>
 &lt;li>
